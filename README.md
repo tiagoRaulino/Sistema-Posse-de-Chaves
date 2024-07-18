@@ -1,5 +1,25 @@
 # Sistema-Controle-de-Chaves
-Este é um projeto de discentes do curso Sistemas e Mídias Digitais da UFC para melhorar a organização, segurança e o conforto do sistema de posse e transferencia de chaves dos laboratórios. O projeto visa beneficiar alunos, professores e tecnicos administrativos educacionais do bloco UFC Virtual em relação ao monitoramento e emprestimo de chaves de laboratório. Para testar o aplicativo na sua maquina siga os seguintes passos:
+Este é um projeto de discentes do curso Sistemas e Mídias Digitais da UFC para melhorar a organização, segurança e o conforto do sistema de posse e transferencia de chaves dos laboratórios. O objetivo é beneficiar alunos, professores e tecnicos administrativos educacionais do bloco UFC Virtual em relação ao monitoramento e emprestimo de chaves de laboratório.
+
+## Equipe do Projeto
+* Guilherme Maciel Miranda
+* Guilherme Melo Miranda
+* Italo Freire Marques
+* Lucas Borges Souza Aguiar
+* Tiago Raulino Cavalcante de Lima
+
+## Resumo do Projeto
+Tomando como cliente a secretária do curso Sistemas e Mídias Digitais da Universidade Federal do Ceará (UFC), a proposta é a criação de uma aplicação que automatiza o processo de empréstimo de chaves para o acesso de salas e laboratórios. O atual sistema conta com diversos problemas quanto a perda de chaves, confusão de quem está com o porte das chaves e até na clareza do registro que, atualmente, é realizado em um protocolo de papel.
+
+Algumas funcionalidades do projeto são:
+* Cadastrar e logar usuários.
+* Visualizar o mapa de salas.
+* Visualizar a disponibilidade de salas.
+* Registrar o empréstimo, devolução e troca de chaves.
+* Verificar as credenciais que possui.
+* Notificar usuários em caso de esquecimento de chaves.
+
+## Testando o Aplicativo 
 
 ### 1. Clonando o repositório
 * Crie ou escolha uma pasta na sua maquina para receber os arquivos do projeto
