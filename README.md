@@ -1,4 +1,4 @@
-# Sistema-Controle-de-Chaves
+# Sistema Controle de Chaves
 Este é um projeto de discentes do curso Sistemas e Mídias Digitais da UFC para melhorar a organização, segurança e o conforto do sistema de posse e transferencia de chaves dos laboratórios. O objetivo é beneficiar alunos, professores e tecnicos administrativos educacionais do bloco UFC Virtual em relação ao monitoramento e emprestimo de chaves de laboratório.
 
 ## Equipe do Projeto
