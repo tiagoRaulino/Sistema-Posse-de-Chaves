@@ -24,7 +24,7 @@ Algumas funcionalidades do projeto são:
 ### 1. Clonando o repositório
 * Crie ou escolha uma pasta na sua maquina para receber os arquivos do projeto
 * Abra a pasta utilizando um terminal
-* Digite o código: `git clone https://github.com/tiagoRaulino/Sistema-Controle-de-Chaves.git`
+* Digite o código: `https://github.com/tiagoRaulino/sistema-controle-de-chaves.git`
   
 ### 2. Instale os pacotes necessários
 * Depois de clonar o repositório, mude seu diretório para a pasta "scc-react".
