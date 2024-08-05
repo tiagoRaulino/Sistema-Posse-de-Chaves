@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
-import NavBar from "./components/navBar"
+import NavBar from "./components/NavBar"
 
 export default function App() {
   return <>
-    <NavBar/>
+    <NavBar />
     <div>
       <h1>Bem Vindo!</h1>
       <p>Esta é uma pagina de apresentação</p>

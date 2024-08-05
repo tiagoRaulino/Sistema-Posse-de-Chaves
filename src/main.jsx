@@ -4,10 +4,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.css'
 
-import Login from './pages/login.jsx'
-import Register from './pages/resgister.jsx'
-import Home from './pages/home.jsx'
-import NotFound from './pages/notFound.jsx'
+import Login from './pages/Login.jsx'
+import Register from './pages/Resgister.jsx'
+import Home from './pages/Home.jsx'
+import NotFound from './pages/NotFound.jsx'
 
 const router = createBrowserRouter([
   {
