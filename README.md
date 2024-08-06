@@ -27,8 +27,6 @@ Algumas funcionalidades do projeto são:
 * Digite o código: `https://github.com/tiagoRaulino/sistema-controle-de-chaves.git`
   
 ### 2. Instale os pacotes necessários
-* Depois de clonar o repositório, mude seu diretório para a pasta "scc-react".
-  Digite `cd scc-react` no seu terminal.
 * Em seguida digite `npm install` no seu terminal para instalar os pacotes necessários (lembre-se de ter o Node.js instalado antes usar qualquer comando npm)
 
 ### 3. Iniciando um Localhost no seu navegador
