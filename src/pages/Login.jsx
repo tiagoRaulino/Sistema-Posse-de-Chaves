@@ -20,15 +20,15 @@ export default function Login() {
                             <label htmlFor="floatingPassword">Senha</label>
                         </div>
                         <div className="mb-3 d-flex justify-content-center">
-                            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                            <label className="form-check-label" htmlFor="exampleCheck1">      Mantenha-me conectado</label>
+                            <input type="checkbox" className="form-check-input" id="exampleCheck1" style={{ cursor: 'pointer' }}/>
+                            <span className="ms-1 form-check-label" htmlFor="exampleCheck1" style={{ cursor: 'default' }}>Mantenha-me conectado</span>
                         </div>
                         <div className="d-grid">
                             <Link to='/home' className="btn btn-primary btn-lg">Login</Link>
                         </div>
                         <p className="text-center mt-3">
-                            ou_
-                            <Link to='/register'className="text-primary text-decoration-underline">Crie uma conta</Link>
+                            ou
+                            <Link to='/register'className="ms-1 text-primary text-decoration-underline">Crie uma conta</Link>
                         </p>
                     </form>
                 </div>
