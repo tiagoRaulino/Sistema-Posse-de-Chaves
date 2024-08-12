@@ -31,4 +31,4 @@ Algumas funcionalidades do projeto são:
 
 ### 3. Iniciando um Localhost no seu navegador
 * Com os pacotes necessários instalados, inicie um host local. Digite `npm run dev`
-* Em seguida seguida, acesse um dos links indicados pelo Vite. O primeiro, localhost:5173, abrirá a aplicação somente na sua máquina atual. Já o segundo link, provavelmente parecido com 192.168.X.XX:5173, funcionará para qualquer dispositivo conectado à internet que você estiver usando (incluindo celulares e outros dispositivos móveis).
+* Em seguida seguida, acesse um dos links indicados pelo Vite. O primeiro, localhost:5173, abrirá a aplicação somente na sua máquina atual. Já o segundo link, provavelmente parecido com 192.168.X.XX:5173, funcionará para qualquer dispositivo conectado à internet que você estiver usando (incluindo celulares e outros dospositivos móveis).
