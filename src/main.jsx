@@ -8,6 +8,9 @@ import Login from './pages/Login.jsx'
 import Register from './pages/Resgister.jsx'
 import Home from './pages/Home.jsx'
 import NotFound from './pages/NotFound.jsx'
+import Profile from './pages/Profile.jsx'
+import Reservations from './pages/Reservations.jsx'
+import Permissions from './pages/Permissions.jsx'
 
 const router = createBrowserRouter([
   {
@@ -26,7 +29,19 @@ const router = createBrowserRouter([
   {
     path: '/home',
     element: <Home />
-  }
+  },
+  {
+    path: '/profile',
+    element: <Profile />
+  },
+  {
+    path: '/permissions',
+    element: <Permissions />
+  },
+  {
+    path: '/reservations',
+    element: <Reservations />
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

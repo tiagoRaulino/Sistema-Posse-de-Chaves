@@ -1,19 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Sidebar() {
     return (
         <>
-            <a
-                className="btn btn-primary"
-                data-bs-toggle="offcanvas"
-                href="#offcanvasExample"
-                role="button"
-                aria-controls="offcanvasExample"
-            >
-                Link with href
-            </a>
             <button
                 className="btn btn-primary"
                 type="button"

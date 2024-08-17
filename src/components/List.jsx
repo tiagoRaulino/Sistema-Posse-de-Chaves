@@ -71,7 +71,7 @@ function List() {
                     <input
                         type="text"
                         className="form-control"
-                        placeholder="Search by classroom name..."
+                        placeholder="Busca por texto"
                         value={searchText}
                         onChange={handleSearchChange}
                     />
@@ -103,17 +103,17 @@ function List() {
             </div>
             <div className="row">
                 {filteredClassrooms.map((classroom) => (
-                    <div className="col-md-4 mb-4" key={classroom.id}>
-                        <div className="card">
+                    <div className="col-md-4 mb-2" key={classroom.id}>
+                        <div className="card flex-row">
                             <div className="card-body">
                                 <h5 className="card-title">{classroom.name}</h5>
-                                <p className="card-text">Key Holder: {classroom.keyHolder}</p>
+                                <p className="card-text">Posse da chave: {classroom.keyHolder}</p>
                                 <p className="card-text">Status: {classroom.status}</p>
-                                <p className="card-text">Availability: {classroom.availability}</p>
-                                {classroom.keyHolder === 'You' && (
-                                    <button className="btn btn-primary float-end">Pass Key</button>
-                                )}
+                                <p className="card-text">Disponibilidade: {classroom.availability}</p>
                             </div>
+                            {classroom.keyHolder === 'You' && (
+                                <button className="btn btn-primary float-end" style={{ maxHeight: 80, alignSelf: 'center' }}>Repassar chave</button>
+                            )}
                         </div>
                     </div>
                 ))}

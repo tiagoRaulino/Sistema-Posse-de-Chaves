@@ -1,7 +1,7 @@
 function NavBar() {
     return (
         <>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Portuno</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,10 +9,10 @@ function NavBar() {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Salas</a>
-                            <a class="nav-link" href="#">Reservas</a>
-                            <a class="nav-link" href="#">Permissões</a>
-                            <a class="nav-link disabled" aria-disabled="true">Perfil</a>
+                            <a class="nav-link active" aria-current="page" href="/home">Salas</a>
+                            <a class="nav-link" href="/reservations">Reservas</a>
+                            <a class="nav-link" href="/permissions">Permissões</a>
+                            <a class="nav-link" href="/profile">Perfil</a>
                         </div>
                     </div>
                 </div>
