@@ -65,7 +65,7 @@ function List() {
     });
 
     return (
-        <div className="container">
+        <div className='container'>
             <div className="row mb-3">
                 <div className="col-md-4">
                     <input
@@ -101,10 +101,10 @@ function List() {
                     </select>
                 </div>
             </div>
-            <div className="row">
+            <div style={{alignSelf: 'center'}}>
                 {filteredClassrooms.map((classroom) => (
-                    <div className="col-md-4 mb-2" key={classroom.id}>
-                        <div className="card flex-row">
+                    <div key={classroom.id}>
+                        <div className="card flex-row col-md-4">
                             <div className="card-body">
                                 <h5 className="card-title">{classroom.name}</h5>
                                 <p className="card-text">Posse da chave: {classroom.keyHolder}</p>
