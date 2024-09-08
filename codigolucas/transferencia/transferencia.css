@@ -1,0 +1,132 @@
+/* Importando as fontes Mulish e Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Mulish:wght@600;900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: #CC6600;
+}
+
+.menu-icon {
+    font-size: 24px;
+    color: #CC6600;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.confirm-section {
+    margin-bottom: 40px;
+}
+
+.user-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.student-name {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    padding: 0 20px;
+}
+
+.cancel-btn, .confirm-btn {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 45%;
+    border: none;
+}
+
+.cancel-btn {
+    background-color: #B4B4B4;
+    color: white;
+}
+
+.confirm-btn {
+    background-color: #CC6600;
+    color: white;
+}
+
+.confirm-btn:hover {
+    background-color: #b34d00;
+}
+
+.cancel-btn:hover {
+    background-color: #9a9a9a;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .menu-icon {
+        font-size: 22px;
+    }
+
+    .confirm-btn, .cancel-btn {
+        font-size: 14px;
+    }
+}

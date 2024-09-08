@@ -1,0 +1,166 @@
+/* Estilo da Página de Reservas */
+body {
+    font-family: 'Mulish', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px; /* Ajuste no padding para corresponder à proporção */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.title {
+    font-size: 28px; /* Ajuste no tamanho da fonte */
+    color: #CC6600;
+    margin: 0;
+    font-weight: bold;
+}
+
+.icon-menu i {
+    font-size: 24px;
+    color: #CC6600;
+    cursor: pointer;
+}
+
+main {
+    padding: 15px; /* Ajuste no padding para corresponder à proporção */
+    margin-top: 80px; /* Ajuste no espaçamento para header */
+    flex: 1;
+}
+
+.section-title {
+    font-size: 24px; /* Ajuste no tamanho da fonte */
+    color: #CC6600;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.current-reservation {
+    background-color: #e0e0e0;
+    padding: 10px; /* Ajuste no padding para corresponder à proporção */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.current-reservation p {
+    margin: 0;
+    font-size: 14px; /* Ajuste no tamanho da fonte */
+    color: #333;
+}
+
+.reservation-info {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Ajuste no espaçamento */
+    margin-top: 8px;
+}
+
+.room-name {
+    font-size: 18px; /* Ajuste no tamanho da fonte */
+    font-weight: bold;
+    color: #333;
+}
+
+.return-button {
+    background-color: #CC6600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px; /* Ajuste no padding para corresponder à proporção */
+    font-size: 14px; /* Ajuste no tamanho da fonte */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.return-button:hover {
+    background-color: #b35900;
+}
+
+/* Lista de Reservas */
+.reservation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reservation-item {
+    background-color: #fff;
+    padding: 12px; /* Ajuste no padding para corresponder à proporção */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.reservation-item:hover {
+    background-color: #f0f0f0;
+}
+
+.reservation-item h3 {
+    margin: 0;
+    font-size: 16px; /* Ajuste no tamanho da fonte */
+    color: #333;
+}
+
+.reservation-timer {
+    background-color: #d9d9d9;
+    padding: 4px 8px; /* Ajuste no padding para corresponder à proporção */
+    border-radius: 8px;
+    font-size: 14px; /* Ajuste no tamanho da fonte */
+    color: #333;
+    display: flex;
+    gap: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 20px;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-item {
+    text-align: center;
+}
+
+.footer-item i {
+    font-size: 24px;
+    color: #333;
+    display: block;
+    cursor: pointer;
+}
+
+.footer-item p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}

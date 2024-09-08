@@ -1,0 +1,137 @@
+/* Estilo da Página de Salas */
+body {
+    font-family: 'Mulish', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.title {
+    font-size: 32px;
+    color: #CC6600;
+    margin: 0;
+    font-weight: bold;
+}
+
+.icon-menu i {
+    font-size: 24px;
+    color: #CC6600;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    margin-top: 100px;
+    flex: 1;
+}
+
+.floor-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.floor-filter span {
+    font-size: 18px;
+    color: #333;
+}
+
+.floor-button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+    color: #CC6600;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floor-button.active {
+    background-color: #CC6600;
+    color: #fff;
+}
+
+/* Lista de Salas */
+.room-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.room-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.room-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.room-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Botão de seta à direita */
+.room-arrow {
+    font-size: 20px;
+    color: #CC6600;
+    text-decoration: none;
+}
+
+.room-arrow i {
+    font-size: 24px;
+}
+
+/* Estilo dos Botões - Mesma largura para harmonia */
+.reserve-button, .occupied-button {
+    width: 100px; /* Tamanho fixo para ambos os botões */
+    background-color: #CC6600;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.occupied-button {
+    background-color: #777; /* Cor para o botão ocupado */
+}

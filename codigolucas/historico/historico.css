@@ -1,0 +1,136 @@
+/* Importando a fonte Mulish e Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Mulish:wght@600;900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #e0e0e0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: #CC6600;
+}
+
+.menu-icon {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+main {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.history-item {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-header h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.change-btn {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #CC6600;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.change-btn:hover {
+    background-color: #b34d00;
+}
+
+.item-info p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.item-info i {
+    margin-right: 5px;
+}
+
+.user-original {
+    color: #CC6600;
+    font-weight: 600;
+}
+
+.user-new {
+    color: #CC6600;
+    font-weight: 600;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .menu-icon {
+        font-size: 22px;
+    }
+
+    .history-item {
+        padding: 15px;
+    }
+
+    .item-header h2 {
+        font-size: 16px;
+    }
+
+    .change-btn {
+        font-size: 12px;
+    }
+
+    .item-info p {
+        font-size: 12px;
+    }
+}
